@@ -1,34 +1,34 @@
 ## Quick Navigation
 
-| # | Question | Section |
-|---|---------|---------|
-| 1 | [[#**1. Tell me about yourself.**\|Tell me about yourself]] | Soft |
-| 2 | [[#**2. Why Visa?**\|Why Visa?]] | Soft |
-| 3 | [[#**3. Are you interviewing anywhere else or in final round/contract discussions?**\|Other interviews?]] | Soft |
-| 4 | [[#**4. Tell me about a time you worked through a tight deadline.**\|Tight deadline]] | Soft |
-| 5 | [[#**5. Tell me about a time you had to disagree with a teammate or client. How did you handle it constructively?**\|Disagreement with teammate/client]] | Soft |
-| 6 | [[#**6. Tell me about a time you led a team through an ambiguous situation where there was no clear path forward.**\|Leading through ambiguity]] | Soft |
-| 7 | [[#**7. Tell me about a time you received critical feedback. How did you respond?**\|Critical feedback]] | Soft |
-| 8 | [[#**8. Tell me about a time you struggled on a technical problem. How did you find the solution?**\|Struggled on technical problem]] | Technical |
-| 9 | [[#**9. Walk me through a technical architecture decision you made and why.**\|Architecture decision]] | Technical |
-| 10 | [[#**10. Tell me about a bug that was difficult to track down. How did you debug it?**\|Difficult bug]] | Technical |
-| 11 | [[#**11. Tell me about a time you used AI or automation to solve an engineering problem.**\|AI/automation in engineering]] | Technical |
-| 12 | [[#**12. Describe a time you had to learn a new technology quickly to deliver a feature.**\|Learn new tech quickly]] | Technical |
-| 13 | [[#**13. Tell me about a time a project didn't go as planned. What happened and what did you learn?**\|Project didn't go as planned]] | Technical |
-| 14 | [[#**14. How do you approach designing a RESTful API for a new feature?**\|Designing a REST API]] | Technical |
-| 15 | [[#**15. Tell me about a time you used testing to catch or prevent a significant bug.**\|Testing to catch bugs]] | Technical |
-| 16 | [[#**16. How would you approach integrating AI into an existing system?**\|Integrating AI]] | Technical |
-| 23 | [[#**23. How did you work through this project as a team?**\|Teamwork on a project]] | Technical |
-| 24 | [[#**24. What is indexing and what is the tradeoff?**\|Indexing tradeoffs]] | Technical |
-| 17 | [[#**17. How do you approach security when designing a system? Walk me through your thought process.**\|Security design thinking]] | Security |
-| 18 | [[#**18. Tell me about a time you identified a security risk and made a design decision to mitigate it, even when a simpler option existed.**\|Security risk tradeoff]] | Security |
-| 19 | [[#**19. How do you think about the tradeoff between security and user experience?**\|Security vs UX]] | Security |
-| 20 | [[#**20. Walk me through your Cloud Optimizer project.**\|Cloud Optimizer walkthrough]] | Projects |
-| 21 | [[#**21. Walk me through your Home Recommendation System.**\|Home Rec System walkthrough]] | Projects |
-| 22 | [[#**22. Walk me through your experience at UW.**\|UW internship walkthrough]] | Projects |
-| — | [[#Questions To Ask Them\|Questions to ask them]] | Ask |
-| — | [[#Quick Reference: Story Bank by Theme\|Story bank]] | Reference |
-| — | [[#Visa-Specific Talking Points to Weave In\|Visa talking points]] | Reference |
+| #   | Question                                                                                                                                                                | Section   |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| 1   | [[#**1. Tell me about yourself.**\|Tell me about yourself]]                                                                                                             | Soft      |
+| 2   | [[#**2. Why Amazon?****\|Why Amazon?]]                                                                                                                                  | Soft      |
+| 3   | [[#**3. Are you interviewing anywhere else or in final round/contract discussions?**\|Other interviews?]]                                                               | Soft      |
+| 4   | [[#**4. Tell me about a time you worked through a tight deadline.**\|Tight deadline]]                                                                                   | Soft      |
+| 5   | [[#**5. Tell me about a time you had to disagree with a teammate or client. How did you handle it constructively?**\|Disagreement with teammate/client]]                | Soft      |
+| 6   | [[#**6. Tell me about a time you led a team through an ambiguous situation where there was no clear path forward.**\|Leading through ambiguity]]                        | Soft      |
+| 7   | [[#**7. Tell me about a time you received critical feedback. How did you respond?**\|Critical feedback]]                                                                | Soft      |
+| 8   | [[#**8. Tell me about a time you struggled on a technical problem. How did you find the solution?**\|Struggled on technical problem]]                                   | Technical |
+| 9   | [[#**9. Walk me through a technical architecture decision you made and why.**\|Architecture decision]]                                                                  | Technical |
+| 10  | [[#**10. Tell me about a bug that was difficult to track down. How did you debug it?**\|Difficult bug]]                                                                 | Technical |
+| 11  | [[#**11. Tell me about a time you used AI or automation to solve an engineering problem.**\|AI/automation in engineering]]                                              | Technical |
+| 12  | [[#**12. Describe a time you had to learn a new technology quickly to deliver a feature.**\|Learn new tech quickly]]                                                    | Technical |
+| 13  | [[#**13. Tell me about a time a project didn't go as planned. What happened and what did you learn?**\|Project didn't go as planned]]                                   | Technical |
+| 14  | [[#**14. How do you approach designing a RESTful API for a new feature?**\|Designing a REST API]]                                                                       | Technical |
+| 15  | [[#**15. Tell me about a time you used testing to catch or prevent a significant bug.**\|Testing to catch bugs]]                                                        | Technical |
+| 16  | [[#**16. How would you approach integrating AI into an existing system?**\|Integrating AI]]                                                                             | Technical |
+| 23  | [[#**23. How did you work through this project as a team?**\|Teamwork on a project]]                                                                                    | Technical |
+| 24  | [[#**24. What is indexing and what is the tradeoff?**\|Indexing tradeoffs]]                                                                                             | Technical |
+| 17  | [[#**17. How do you approach security when designing a system? Walk me through your thought process.**\|Security design thinking]]                                      | Security  |
+| 18  | [[#**18. Tell me about a time you identified a security risk and made a design decision to mitigate it, even when a simpler option existed.**\|Security risk tradeoff]] | Security  |
+| 19  | [[#**19. How do you think about the tradeoff between security and user experience?**\|Security vs UX]]                                                                  | Security  |
+| 20  | [[#**20. Walk me through your Cloud Optimizer project.**\|Cloud Optimizer walkthrough]]                                                                                 | Projects  |
+| 21  | [[#**21. Walk me through your Home Recommendation System.**\|Home Rec System walkthrough]]                                                                              | Projects  |
+| 22  | [[#**22. Walk me through your experience at UW.**\|UW internship walkthrough]]                                                                                          | Projects  |
+| —   | [[#Questions To Ask Them\|Questions to ask them]]                                                                                                                       | Ask       |
+| —   | [[#Quick Reference: Story Bank by Theme\|Story bank]]                                                                                                                   | Reference |
+| —   | [[#Visa-Specific Talking Points to Weave In\|Visa talking points]]                                                                                                      | Reference |
 
 ---
 
@@ -77,11 +77,169 @@
 
 ---
 
-### **2. Why Visa?**
+### **2. Why Amazon?**
 
 - **Answer:**
 
-	- What stood out to me about Visa was the recent Intelligent Commerce initiative -- the idea that AI agents will be making purchases on behalf of users, and Visa is building the trust and credential layer to make that safe and seamless. That's not a small problem -- you're essentially designing a system where a non-human entity needs to be authenticated, authorized, and trusted the same way a person swiping a card is today, and that has to work across 200 countries and different currencies in milliseconds. I've always been interested in working at this type of scale. My Home Recommendation System was built with the mindset of learning how companies operate at scale and using the technologies Visa would use, and even my first project was a stock tracking app so I've always been drawn to Fintech. What I would bring to Visa and to my team is someone who has experience automating and optimizing systems -- from my internship at UW all the way to my Cloud Optimization project that has been running in the background saving $50 a month on storage -- and someone who comes from leading teams where my job everyday is leading through ambiguity and owning features end to end. As Visa moves through this new AI age, I think you'll need more engineers who can not only code, but also make decisions and communicate effectively. That's what I do every day running Tech Startup Club, and that's what I want to do at Visa.
+	- 
+
+
+- Amazon Principles
+
+		The Customer is always divinely dissatisfied
+
+		Customer Obsession -> Customer Delight -> Customer Loyalty
+
+	- **Customer Obsession**
+
+		- Did you suffer some loss to fulfill a promise or to deliver a product? Or did you take the easy way out?
+
+	- **Bias for Action**
+
+		- 60% rule. Do not wait for all information, acquire enough information, and act. Its better to get 5/10 good choices a day than 3/3.
+
+		- Sometimes you need to admit fault and use it as a learning opportunity to be better in the future.
+
+		- Speed is key
+
+	- **Think Big**
+
+		- Can you make decisions with no prior precedent?
+		- Can you make decisions through API's? Can you make decisions without having to go to a meeting or ask directly for help? Less spaghetti code, document heavily, make sure versions are working and complete... quicker, more robust, and more complete releases
+		- What happens when you run out of room to grow?
+		- You must show that you have a desire to compete. Amazon jumped into competing with Walmart for groceries, how can I show that I have taken on projects or decisions that challenge the status quo, seek to enhance or optimize a working existing solution, or bring quality and performance to my customers that they cant get anywhere else.
+		- When have you contemplated answers that are ludacris? Answers that others have laughed at you for? Things that are unproven?
+		- Be very clear about the final outcome and output you are shooting for, to be able to understand the process better
+
+	- **Invent and Simplify** ***
+
+		- I am an expert who applies pre-existing knowledge in a new field
+		- Is there an experience from a previous experience you have taken to your current one? How did you do it better this time around
+
+	- **Learn and be Curious** ***
+
+		- I am not an expert and I teach myself something new on my own
+
+	- **Are right, Alot**
+
+		- How do you get the right answer, when the data doesn't exist?
+		- You are blindfolded and need to make a difficult decision, how do you decide?
+			- If you feel a decision will be correct in the long run, even though there is nothing to prove it, then go for it.
+			- Your margin is my opportunity
+		- Something that was someone else's margin, that you took, expanded upon and turned into a success through constant good decisions
+		- Have to make a decision because its crucial for your business even though you don't have all the facts in front of you
+
+	- **Disagree and Commit**
+
+		- Argue to solve, not to win
+			- frame the argument in an approach that better aligns with the needs of the customer and stakeholders
+			- Negotiate for interests, not positions
+				- For Go vs Java, the direct user does not care what we use, but future members of the team will need to be able top understand the codebase and build upon it easily and quickly
+		- Use data and facts to show that your solution is better
+			- for the Go vs Java, factually Java is learned by students already and will continue to be learned. Java has more libraries and a larger community, more jobs, and is used more widely by companies
+		- Build a prototype as a proof
+			- One key disagreement was with the docker build. In theory Java Spring allows for a higher ceiling in Docker build times than Go with well written code, so we had to prove that by actually building a small identical project in Java and in Go and compare build times. Java ended up being significantly  [insert actual number here] faster
+			- Gamble with me, don't argue!
+		- Commit and don't fight gravity
+			- If you do everything previously and there is still a disagreement, just commit to something and move forward, there's no point in continuing the argument
+			- embrace the solution you previously opposed
+		- Evaluate the outcome of the decision
+			- Did the decision work? was your original decision the correct one, or is the one you previously opposed deemed to be correct? What if you have to then backtrack?
+			- Never say I told you so
+			- Learn from your failings and develop a new plan
+		- So what? What skills am I being tested for?
+			- You wont know if the interviewer wants more of a team player or someone with a strong backbone, so your answers should actually show both. Show that you can disagree and come with a strong argument, and if you cant win them over that you can set your feelings aside and work together to find a solution.
+
+	- **Hire and Develop the Best**
+
+		- Are you a strong people leader or just a talking head?
+		- Who is your best hire?
+			- Do not just praise the best member of your team, they want to know if you can hire someone that can outperform you or replace you?
+				- Where are they now? have you moved them up?
+				- Do other teams want to poach your talent?
+				- Give people opportunities to have more freedom, more responsibility, move into leadership positions, or even leave into different teams or roles
+		- Who is your worst hire?
+			- An effective leader can spot the inefficiencies and develop a plan in which that member can turn things around
+			- Don't make underperformers someone else's problem. Do not wait too long to move them on.
+			- Keeping an underperformer is bad for the rest of the team. It created more headaches, more workload, and more missed deadlines. 
+		- How do you grow people?
+			- How do you spark or enable the middle 70% of people to grow into the top 10% while keeping them out of the bottom 20%?
+
+	- **Frugality**
+
+		- Will not be asked directly, so needs to be smuggled into other questions
+		- Do more with less.
+		- What have you done and how have you achieved outcomes? Amazon does not like splurging for experts and consulting spend
+		- If you show bloat or waste that will cost you in the interview.
+
+	- **Deliver Results**
+
+		- Show clear and measurable output
+		- Don't care about input, only care about output
+			- His story: first day he was in a meeting with his manager and another manager meeting with a developer that has been behind schedule and not delivering the result they want for months. This developer had been working on mobile games for Amazons new Kindle, but had not been delivering. They turn to him and ask what they should do. He makes the decision to terminate that developer immediately and move to find a new one.
+			- It does not matter what means you use to come to a result, they just care that the result was reached. Sometimes you will need to use different tools, different timelines, different products. It does not matter, just get to the result quickly and well.
+		- short term wins vs long term impact
+			- Sometimes you need to move really fast, sometimes you need to have a short grind. You need to be able to do both
+				- In the short term, the developer was terminated. In the long term, there were meetings with Jeff Bezos to plan and launch Amazon studios.
+					- There were no experts to contact for this product, there was no AI. He had to figure things out on his own by being scrappy, by using internal data. Do not wait for someone else to hand you the playbook. Commit to your results. You are not handed options and decide between the results, you need to have the urgency and agency.
+					- Unless you can think of better ones... these are the options I have chosen and believe are the best and I think we should go with this one, lets go do it.
+
+	- **Ownership**
+
+		- Brainstorming meetings vs reporting delivery meetings
+			- He planned to sing 19 new games in 9 months at Amazon even though he had not signed 19 new IP games for 13+ years at Microsoft.
+			- The plan was ambitious, challenging, and inspiring, and the plan turned into commitment and ownership.
+			- Accountability meetings turned into did we hit our goal and if not why not.
+			- Did you deliver your promise and did you own the outcome?
+		- What's in it for the stakeholder/customer/user?
+			- Pitch high to the stakeholders and uphold your promises
+			- Ownership means doing everything that needs to be done. Nothing is not your job or responsibility. Even if something you are responsible for gets passed on, it is still your responsibility whether it gets finished or not.
+			- Ownership is the right thing to do
+		- After making so much progress internally, sometimes there can be clashes externally
+			- A good example can be the hackathon
+			- All my work was completed well before the deadline, but issues occurred that I technically had no control over, but it was still my responsibility for them to be handled in time. I could not sit and wait for the wrinkles to be ironed out by this other team. I had to work in parallel best I could. It was my word that the result would be delivered. I could not wait or blame others. I went ahead and exchanged early versions of paperwork to help move along the process.
+
+	- **Dive Deep**
+
+		- What was the data behind your decision and why did you make it?
+			- EX: Data says the average customer wait time is less than 60 seconds to meet with a representative, but comments say it takes way longer. Pick up the phone and call to see how long it takes to reach a representative. It takes 10 minutes. This is diving deep, its seeking the truth. not just looking at data, but actually 
+			- When you think you've used enough data, 3x it.
+			- Always talk at the lowest level, never speak in generalities. Speak in the actual truth and tiny details.
+		- Truth seeking
+			- Do not just assume or guess that the height of a ceiling is 10-12 feet. Actually pull out a measuring tape and measure the ceiling and find out that the ceiling is 9 ft 10 inches
+		- Solutions are right in front of you and you are not looking at them
+			- The four big ideas is available online, yet people dismiss it and argue against it
+			- Words matter and data matters. Look for what's in plain sight and don't stop yourself at the surface. Amazon entered the groceries market even though Walmart was already cheap, but Amazon believes there was an opportunity under the surface to have faster and cheaper groceries delivered straight to your door.
+		- Look at the concrete data. Have a relentless focus on data
+			- Sales by hour, by state. Net promoter scores by device id. UI retention metrics on different buttons and pages.
+			- Dive deep matters no matter the scale.
+		- Focus on data throughout the interview, even if not immediately asked to.
+
+	- **Earn Trust**
+
+		- Lowest point in his amazon career
+			- Hired to build kindle games, signed 19 new IP games to join, launches 3 of the games, and then Amazon bought Twitch. Twitch is primarily used by people that play on their personal PCs. But Amazon primarily owned Mobile games and did not open any PC games. After the acquisition of Twitch, Amazon pivoted and cancelled development of 16 mobile games to shift to PC games. He had to make calls to each game studio to say that they were getting cancelled with no cause around Christmas time. He felt horrible, and by the halfway point of all the calls e was able to determine that al the calls so far had only lasted an average of 43 seconds. He'd tell them and there would be nothing else to say, so the calls would end. There was a Texas studio that only had 2 games published and they were both with Amazon. This studios entire livelihood was based on these 2 games. After some time the CEO of this company called him and berated him. But he sat on the call and allowed him to. He understood that he had burned this CEOs product, and that the CEO was frustrated.
+		- Amazon merged Vocally self critical and earn trust
+			- Earned trust is about giving up your own benefit for the success of others and balancing out your other values for the sake of gaining trust.
+			- In good times, earn trust enhances hire and develop. It can create opportunities for others, get people promoted, builds an environment that allows arguments and disagreements, innovation to happen.
+			- In bad times, earn trust enhances the ownership and backbone. You do not blame others, you absorb blame for your responsibilities and take action, and even stand up for your actions when needed.
+				- Should shield your work and your people
+			- Failures display earned trust better than a success
+
+	- **High Standards**
+
+		- Common Mistake: Candidates will describe the problem, explain how they fixed it, and then stop their answer there without actually describing how they made sure the standards were kept high
+		- EX: In February 2014, Amazon ran an experiment with those employees brave enough to take it on. The experiment was can you live on Amazon for one entire month? I said yes. I raised my hand and I said I want to be a part of this experiment. The condition was in any business that Amazon operates in, you're not allowed to use any competing product or service but Amazon's. For example, oil changes of my car are okay, but purchasing something from another vendor is not okay. So, I said, "Yes, I want to be a part of this. I want to improve Amazon services and products." And I enrolled. And things were going pretty well until Valentine's Day. Amazon delivered flowers to a very limited number of zip codes in Seattle. And my zip code was not covered by that Prime delivery service. So, Amazon couldn't deliver flowers to my front door. And therefore, my wife got this, an empty vase. You can imagine she was furious. And I delivered that feedback to Amazon Prime. Trust me. But here's the key. Amazon didn't run this to brag. They run this experiment to break themselves, to find out what is doable and what's not. That is the definition of high standards. And because of that definition and that way of thinking today, 10 years later, it's completely normal if I asked you, hey, could you live on Amazon for a month? Could you live on Amazon for a year? Of course. But without those early days snafuss and without those learnings, without those experiments with high standards, Amazon would have never gotten to the position that it's in today. High standards is about pushing yourself until you fail. Amazon expected to get their clocks cleaned back in the day of this Amazon all month challenge and they did get their clocks cleaned and because of that people can live comfortably on Amazon for a day or a month or a year. Now should Amazon declare a victory because of that? No. Customers are always divinely dissatisfied as Bezos says and that dissatisfaction makes high standards the true northstar of Amazon. 3:11 Look at Prime shipping today and how far it has evolved. Amazon launched Prime as a two-day shipping promise for which you paid a subscription. But then they changed Prime to in time to a one-day shipping promise. Now, frequently Amazon delivers items same day to customers. Why? Why do you care to get the majority of your items on Wednesday or Thursday? You don't. I'll give you an example. Do you care to get a toothbrush a day earlier or not? Or do you care to get this uh 3D dinosaur wooden puzzle a day earlier or a day later? No, you don't. You don't. Yet Amazon gives you that promise and keeps pushing that high standards of Prime is going to deliver in two days, then they're going to deliver in one day, then they're going to deliver same day, then they're going to deliver, I'm sure, with within a few hours. That dissatisfaction and that high standards never rests. Therefore, you should look at high standards as a means to an end. And that end almost always is customer obsession. High standards is not an island. It's the thing behind the curtain that pushes Amazon forward. Now, high standards by default and by design disagrees with some of the other sexier leadership principles such as deliver results and bias for action. But in those disagreements and in those clashes, high standards is like the glue that keeps Amazon's culture together and pushes the company forward. Think about it from another point of view. Even when Amazon announced the one month Amazon challenge in 2014, they were looking for people for employees willing to take that leap. They were looking for missionaries, not mercenaries. They were looking for fools like me who are willing to enrage to incur the wrath of their spouses to help push the high standards leadership principle in Amazon further. That's the importance of high standards. What happens behind the curtain while no one's looking?
+			- Critique yourself constantly and at a very low level. Even if you think you are perfectly done, always go and see if you can be better.
+
+		- EX: Now, let's talk about OP1, operating plan one, which is my second story today. OP1 happens once a year at Amazon and it's the budgeting and planning exercise that keeps the company operating year in and year out on a 12 month going basis. The way this exercise works is that it's a bottoms up exercise where every team gets together once a year for a number of months and thinks about their goals that they're willing to commit to for the next 12 months. and also what new products and services they're going to build, what established products they're going to keep marching forward with and keep shipping and so on and so forth and what the goals are for these products and also what new crazy unproven ideas they're going to take on and try to incubate from zero. So every team does this exercise and then gets together and reports that exercise to their manager. And then once the exercise completes for that team, then the next higher level team, the team of all the managers who've just had their OP1 plans done, they get together and they form their own OP1 plans. And then all the directors do the same thing. and they report to the VP and then the VPs report to the senior VPs and the senior VPs report to the CEO. That's how the OP1 process works at Amazon. When I worked at Amazon in Amazon Game Studios, our OP1 plan usually peaked at the CEO level of AWS. At the time, the AWS CEO was Andy Jasse. That was fine and dandy until one year we had made a number of significant acquisitions in Amazon game studios. So that our OP1 was selected to go all the way up not just to Jeff Bezos but to the Amazon board of directors. It was an immense amount of pressure and I was the lucky soul who was selected to be the person who would write the OP1 plan. I was effectively the program manager who would work with all the individual teams, all the leaders of those teams, so on and so forth, get together their products, their goals, their crazy ideas, and have that document be delivered to the Amazon board of directors. One clarification here, one final clarification is that these OP1 plans, they're not presentations. They're not these pitches that you show up live and present on a on a board behind you. No, these are documents. These are narrative documents that are six pages in length and have an unlimited number of pages in the appendix. So I was the person in charge of writing the OP1 document and I revised that document 72 times. I'll repeat it again. I revised the document 72 times like this little stubby pencil. I kept doing it over and over and over again. I kept pushing myself. That is high standards. Endless scrutiny. Revision after revision after revision. The goal isn't to get it right once. The goal is to pressure test it until it cannot be wrong. I scrubbed every single idea, every single statement, every single thought, every punctuation, countless times, over and over, until it was just right. I'll use another analogy to give you a sense of what this is like. In law exams, professors would italicize the semicolon mark because whether it's italicized or not changes the legal meaning of the entire paragraph. It's practically imperceptible to the eye, but it matters a ton. That was the high level of high standards that I committed to and that we all as a team committed to revising this document 72 times. That's what OP1 is like. Details that are imperceptibly small matter and drive businesses that deliver billions of dollars worth of revenue. 
+			- The smallest details can also be the most important
+
+		- EX: All right, let's move to my third and final story about the goals process at Amazon. I mentioned that goals are a part of the OP1 process and goals are brutal. Goals are the things that you commit to as an Amazonian to deliver over the next 12 months. And each goal must have what's called a single threaded owner. Each goal is non-composite, meaning it cannot be broken into any amount of smaller goals. It's at the lowest indivisibly atomic level of specificity. But because of high standards at Amazon, you are expected to fail on at least 30% of your goals. High standards commands that you are ambitious with those goals. Much like a balloon, I'll show you. Here's a balloon. And high standards expect you to push that balloon high and inflate it and be ambitious with it until you pop it. until 30% of those goals are expected to fail. That's what high standards means. Once a goal is set in the Amazon OP1 process, it cannot be changed. The output, the outcome for that goal could either be you met the goal or DNM, you did not meet the goal. That's how unrelenting and exact high standards is. You could come up with a number of new goals. As you go through the year and you learn more about your business and you hear from customers and you observe their behaviors, you add goals to that original OP1 list of goals. But those goals, the existing ones and the new ones, they could not be changed. They're non-compound goals, atomically indivisible goals with only two outcomes, met or did not meet. In this system of the Amazon goal setting process, you can again see how high standards does not live alone. It combines well with other leadership principles such as invent and simplify, learn and be curious and think big. And in that environment, high standards and pushing you to fail leads to a better byproduct and a better end result. like that empty vase 10 plus years ago on Valentine's Day led to indirectly Amazon becoming the de facto standard for millions of people around the world to rely on their services and products day in and day out hour in and hour out.
+			- Goals are non-composite. You are expected to fail with 30% of your goals, because your goals should be so ambitious that they are not all possible.
+			- Goals are unchangeable. You can add goals to your list, but your existing goals cannot change, and you ever meet them, or you do not meet them.
+		- Pushing yourself further past the first "done"
+
 
 ---
 

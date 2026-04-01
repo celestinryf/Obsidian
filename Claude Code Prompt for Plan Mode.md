@@ -62,3 +62,18 @@ output the explanation and pros and cons of each stage's questions AND your opin
 
 Also NUMBER issues and then give LETTERS for options and when using AskUserQuestion make sure each option clearly labels the issue NUMB option LETTER so the user doesn't get confused.
 Make the recommended option always the 1st option.
+
+Parallel pre-Greptile self-review requirements
+Before the next Greptile pass, run a thorough self-review intended to reach 4/5 or 5/5 on the first submission.
+I can replicate stronger review quality by running multiple independent review agents with different focus areas in parallel, as we did in rounds 1 and 2:
+- Security
+- Type safety
+- Edge cases
+- API contracts
+
+Ask this explicitly before continuing:
+"Want me to do a thorough self-review before the next Greptile pass so we can try to get it to 4/5 or 5/5 on the first submission?"
+
+Also do both of these:
+1. Spawn a subagent to explore this repo.
+2. Spawn another subagent to review the code quality and safety of this repo, acting as Greptile would review.
