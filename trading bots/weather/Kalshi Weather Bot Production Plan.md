@@ -748,6 +748,7 @@ class PaperTradeError(WeatherBotError): pass
 - [ ] Tune recommendation gap thresholds
 - [ ] Collect enough data to train Tier 2 (performance-weighted) model
 - [ ] Backtesting with accumulated historical data
+- [ ] **External tool investigation:** Test Prediction Hunt free API for Kalshi weather market coverage; if indexed, prototype cross-platform consensus as a risk scoring validation signal (see External Tools Evaluation section)
 
 ### Sprint 7: GRIB2 Sources (ECMWF/GEM/ENS)
 - [ ] Herbie + cfgrib + xarray + eccodes installation and validation
@@ -766,6 +767,59 @@ class PaperTradeError(WeatherBotError): pass
 - [ ] City-specific model adjustments
 - [ ] Seasonal pattern adaptation
 - [ ] Evaluate whether GRIB2 sources (ECMWF/GEM/ENS) improve accuracy enough to justify ongoing maintenance
+
+---
+
+## External Tools Evaluation (April 2026)
+
+Evaluated 150+ tools from the [Awesome Prediction Market Tools](https://github.com/aarora4/Awesome-Prediction-Market-Tools) directory. No tool combines weather prediction + automated Kalshi trading + risk scoring + paper trading. Our intelligence layer (multi-source weather fusion → Gaussian CDF bracket mapping → 6-factor risk → automated portfolio) is not replicated by anything in the ecosystem.
+
+### Tools Evaluated (Free Only)
+
+| Tool | Type | Verdict | Rationale |
+|------|------|---------|-----------|
+| **PMXT** (github.com/qoery-com/pmxt) | Unified market API (7 exchanges), MIT, 1400+ stars | **REJECTED** | Multi-exchange abstraction solves a problem we don't have — weather brackets are Kalshi-exclusive. Replacing a working pykalshi integration with a 7-exchange abstraction to trade on 1 exchange is pure downside risk. Abstracts away Kalshi-specific details our client depends on (ticker parsing, bracket regex, status enums, exception hierarchy). If Polymarket adds weather brackets, revisit. |
+| **pykalshi** (github.com/ArshKA/kalshi-client) | Kalshi Python client, v0.4.0, 73 stars | **KEEP (already integrated)** | Battle-tested across 3 sprints. WebSocket + rate limiting + OrderbookManager + Pydantic models. 100% aligned with our single-exchange needs. No action required. |
+| **Alphascope Free Tier** (alphascope.app) | AI market intelligence, news-to-impact signals | **REJECTED** | Our edge is atmospheric physics, not news sentiment. Temperature brackets move on NWS/GFS/HRRR model updates, not headlines. The Kalshi-Polymarket arbitrage scanner is irrelevant (no cross-exchange weather markets). Free-tier reliability concerns for a 24/7 system with 5-minute polling cycles. |
+| **Prediction Hunt Free API** (predictionhunt.com) | Cross-platform aggregator, whale tracking | **LOW-PRIORITY INVESTIGATION** | Aggregated odds are a noisier version of Kalshi prices we already ingest via snapshots. Whale tracking on weather markets risks momentum-chasing rather than model-driven trading. **However**: cross-platform odds could serve as a model validation signal (not a trading signal) — if our model says 12% but 4 platforms say 50%+, that's Bayesian evidence to increase risk score. Worth investigating as a risk factor input during Sprint 6 validation period, not a sprint commitment. |
+
+### Tools Evaluated and Rejected (Paid or Irrelevant)
+
+| Tool | Why Rejected |
+|------|-------------|
+| **Wethr** (wethr.net) — best weather analytics for prediction markets, 19+ models, Kalshi settlement logic | **Paid** (Professional/Developer/Enterprise tiers). Would be our #1 integration if free. Revisit if budget allows. |
+| **Oddpool** (oddpool.com) — "Bloomberg for prediction markets", Kalshi orderbook data | **Paid** ($30-100/mo). Weather markets "in development". Monitor for when weather launches. |
+| **ArbBets** (getarbitragebets.com) — Kalshi arbitrage API | **Paid** ($299/mo). Weather market coverage unclear. |
+| **TREMOR** (tremor.live) — market movement alerts | Polymarket only (v0.1-alpha). Kalshi planned for v0.2. Not relevant yet. |
+| **Polymarket Analytics / Falcon API** — cross-venue price disagreement | Pricing unknown. Likely paid for API access. |
+| **Adjacent News** (adj.news) — news aggregation | No weather markets, no Kalshi support mentioned. |
+| **Dome** (domeapi.io) — unified prediction market API | Appears to be vaporware — site rendered with no content. |
+| **PolyRouter** (polyrouter.io) — read-only aggregator | No weather focus. Read-only (no trading). Going direct to Kalshi is more efficient. |
+| **Eventarb** (eventarb.com) — arbitrage calculator | No API. Manual web tool only. |
+| **Token Terminal** (tokenterminal.com) — blockchain analytics | Zero relevance to weather or prediction markets. |
+| **Metaforecast** (metaforecast.org) — forecast meta-aggregator | Currently unmaintained ("We aren't currently maintaining Metaforecast"). |
+| **Parsec** (parsec.fi) — DeFi analytics | Polymarket only, no API, no Kalshi. |
+| **CryptoHouse/ClickHouse** (crypto.clickhouse.com) — blockchain SQL | Onchain only. Kalshi is not onchain. |
+| **Ostium** (ostium.com) — DeFi perpetuals | Not a prediction market tool. Irrelevant. |
+| **Jatevo** (jatevo.ai) — 6-agent AI pipeline | Polymarket only. URL-based manual analysis. |
+| **DeepNewz** (deepnewz.com) — AI news with odds | No API. Polymarket only. Consumer-facing. |
+
+### Action Plan
+
+**Sprint 6 (Validation Period) — Low-effort investigation:**
+- [ ] Test Prediction Hunt free API: verify it indexes Kalshi weather markets, measure data freshness vs. our direct Kalshi snapshots
+- [ ] If weather markets are indexed: prototype a `prediction_hunt.py` client, store cross-platform odds in a `market_consensus` table
+- [ ] Evaluate whether cross-platform consensus improves risk scoring accuracy (A/B compare risk scores with and without the signal)
+- [ ] Decision gate: only integrate into production risk scoring if it demonstrably reduces false positives by >5%
+
+**Revisit triggers (future):**
+- If Polymarket launches weather temperature brackets → re-evaluate PMXT for cross-exchange trading
+- If budget allows → Wethr API is the single highest-value paid integration (19+ weather models, settlement-aligned calculations, accuracy metrics for ensemble weighting)
+- If Oddpool adds weather market data → evaluate for supplementary orderbook depth signals
+
+### Key Insight
+
+**Our competitive moat is the intelligence layer**, not market connectivity. The ecosystem has dozens of tools for viewing odds, tracking whales, and aggregating prices — but none that fuse multiple weather models into calibrated probability distributions and map them to Kalshi brackets with risk scoring. Engineering effort should stay focused on improving model accuracy (Tier 2/3 models, GRIB2 sources, calibration) rather than adding market-sentiment signals.
 
 ---
 
